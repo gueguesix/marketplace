@@ -6,10 +6,10 @@
             </div>
             <div class="card-content">
                 <div class="row">
-                    <div class="col ">
+                    <div class="center col s6">
                         {{ name }}
                     </div>
-                    <div class="col ">
+                    <div class=" center col s6">
                         {{ "$" + price }}
                     </div>
                 </div>

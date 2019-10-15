@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <navbar/>
-    <div class="row"  style="margin-top: 100px;">
+    <div class="row"  style="margin-top: 30px;">
       <div class="col l9">
         <productPage v-for="product in Products.products" :key="product.id" :id="product.id" :name="product.name" :image="product.image" :price="product.price" />
       </div>
